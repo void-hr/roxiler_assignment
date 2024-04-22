@@ -1,0 +1,39 @@
+.product_image {
+    mix-blend-mode: multiply;
+}
+
+
+.transaction_table {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.search_filter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom_select{
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: black;
+    outline: none;
+}
+
+.search_product {
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: 1px solid rgb(124, 124, 124);
+}
+.button_pagination{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
